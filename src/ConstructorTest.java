@@ -20,7 +20,8 @@ public class ConstructorTest {
     }
 
 
-
+        public void method1(Object o) {
+        }
     }
 
     class B extends A{

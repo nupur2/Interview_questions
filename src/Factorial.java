@@ -2,7 +2,7 @@ public class Factorial {
     public static void main(String[] args){
 
 
-        System.out.println("factorial of given number" +  factorial(4));
+        System.out.println("factorial of given number" +  factorial(10));
     }
 
     private static int factorial(int n) {

@@ -50,7 +50,7 @@ public class JavaForkJoingetActivethreadcountExample1 {
 
         ForkJoin t = new ForkJoin(400);
 
-        Pool.invoke(t);
+        Pool.execute(t);
 
         System.out.println("Number of active thread after invoking: "
                 + Pool.getActiveThreadCount());
