@@ -20,4 +20,9 @@ class Atest {
         System.out.println("..........." + s);
     }
 
+    public void method1(int s) {
+        System.out.println("..........." + s);
+    }
+
+
 }
