@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Employee {
     private int id ;
     private String name ;
@@ -30,4 +32,15 @@ public class Employee {
     public void setName(String name) {
         this.name = name;
     }
+
+/*    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Employee employee)) return false;
+        return id == employee.id && Objects.equals(name, employee.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
+    }*/
 }

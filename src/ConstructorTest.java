@@ -6,7 +6,7 @@ public class ConstructorTest {
 
         A b = new B();
 
-        B bb = (B) new A();
+        A bb = (B) new A();
 
     }
     }

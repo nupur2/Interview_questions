@@ -9,6 +9,7 @@ public class AwaitTerminated {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.submit(() -> System.out.println("Single task executed"));
 
+
         if (!executorService.isTerminated()) {
             awaitThreadPool(executorService);
            /* executorService.shutdown();
